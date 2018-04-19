@@ -7,23 +7,20 @@
 
     <GridView
 
-        android:numColumns="7"
         android:id="@+id/gridView"
-        android:gravity="center"
-        android:columnWidth="50dp"
-        android:stretchMode="spacingWidth"
-        android:layout_width="fill_parent"
-        android:layout_height="250dp"
-        android:textSize="40sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_below="@+id/gridView2"
-        android:clickable="true"
+        android:layout_toLeftOf="@+id/lv_front"
+        android:layout_toStartOf="@+id/lv_front"
+
+        android:numColumns="7"
+
         android:textAlignment="center"
         android:textFilterEnabled="false"
-        android:layout_alignRight="@+id/gridView2"
-        android:layout_alignEnd="@+id/gridView2"
+        android:textSize="10sp"
         android:touchscreenBlocksFocus="false"
-        android:transcriptMode="disabled"
-        android:drawSelectorOnTop="true"/>
+        android:transcriptMode="disabled" />
     <GridView
 
         android:numColumns="7"
@@ -33,14 +30,11 @@
         android:stretchMode="columnWidth"
         android:layout_width="fill_parent"
         android:layout_height="50dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="54dp"
         android:background="#52b0ff"
-        android:layout_alignRight="@+id/button2"
-        android:layout_alignEnd="@+id/button2"
-        android:transcriptMode="disabled" />
+        android:transcriptMode="disabled"
+        android:layout_below="@+id/button2"
+        android:layout_toLeftOf="@+id/lv_front"
+        android:layout_toStartOf="@+id/lv_front" />
 
 
 

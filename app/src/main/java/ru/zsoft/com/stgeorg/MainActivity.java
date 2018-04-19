@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
     public static int yyyy;
     Intent intent;
     boolean ff = false;
-    public static final String[] s_year = {"2016", "2017", "2018","2019"};
+    public static final String[] s_year = {"2016","2017","2018","2019","2020","2021"};
     ArrayList<Lines_data> ln_d = new ArrayList<Lines_data>();
     GregorianCalendar cl = new GregorianCalendar();
 
